@@ -1,4 +1,4 @@
-package me.duck;
+package me.strategy.duck;
 
 public abstract class ADuck {
 	// ������� ӵ�з�װ�õ� �㷨��

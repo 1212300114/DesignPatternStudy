@@ -3,7 +3,7 @@ package headfirst.designpatterns.factory.pizzafm;
 public class NYStyleVeggiePizza extends Pizza {
 
 	public NYStyleVeggiePizza() {
-		name = "NY Style Veggie Pizza";
+		name = "NY Style Veggie APizza";
 		dough = "Thin Crust Dough";
 		sauce = "Marinara Sauce";
  

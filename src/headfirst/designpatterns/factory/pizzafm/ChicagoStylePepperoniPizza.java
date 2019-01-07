@@ -2,7 +2,7 @@ package headfirst.designpatterns.factory.pizzafm;
 
 public class ChicagoStylePepperoniPizza extends Pizza {
 	public ChicagoStylePepperoniPizza() {
-		name = "Chicago Style Pepperoni Pizza";
+		name = "Chicago Style Pepperoni APizza";
 		dough = "Extra Thick Crust Dough";
 		sauce = "Plum Tomato Sauce";
  

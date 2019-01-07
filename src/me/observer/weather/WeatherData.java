@@ -1,4 +1,4 @@
-package me.weather;
+package me.observer.weather;
 
 import java.util.ArrayList;
 

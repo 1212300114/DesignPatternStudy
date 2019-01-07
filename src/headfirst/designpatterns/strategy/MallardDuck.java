@@ -10,6 +10,6 @@ public class MallardDuck extends Duck {
 	}
 
 	public void display() {
-		System.out.println("I'm a real Mallard me.weather.duck");
+		System.out.println("I'm a real Mallard me.observer.weather.duck");
 	}
 }

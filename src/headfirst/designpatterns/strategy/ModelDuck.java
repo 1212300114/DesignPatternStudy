@@ -7,6 +7,6 @@ public class ModelDuck extends Duck {
 	}
 
 	public void display() {
-		System.out.println("I'm a model me.weather.duck");
+		System.out.println("I'm a model me.observer.weather.duck");
 	}
 }

@@ -21,7 +21,7 @@ public abstract class Pizza {
 	}
 
 	void box() {
-		System.out.println("Place pizza in official PizzaStore box");
+		System.out.println("Place pizza in official APizzaStore box");
 	}
 
 	void setName(String name) {

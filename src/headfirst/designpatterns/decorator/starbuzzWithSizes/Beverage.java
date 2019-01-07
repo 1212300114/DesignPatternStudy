@@ -3,7 +3,7 @@ package headfirst.designpatterns.decorator.starbuzzWithSizes;
 public abstract class Beverage {
 	public enum Size { TALL, GRANDE, VENTI };
 	Size size = Size.TALL;
-	String description = "Unknown Beverage";
+	String description = "Unknown ABeverage";
   
 	public String getDescription() {
 		return description;

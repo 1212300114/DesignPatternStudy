@@ -20,11 +20,11 @@ public class ForecastDisplay implements Observer, DisplayElement {
 	public void display() {
 		System.out.print("Forecast: ");
 		if (currentPressure > lastPressure) {
-			System.out.println("Improving me.weather on the way!");
+			System.out.println("Improving me.observer.weather on the way!");
 		} else if (currentPressure == lastPressure) {
 			System.out.println("More of the same");
 		} else if (currentPressure < lastPressure) {
-			System.out.println("Watch out for cooler, rainy me.weather");
+			System.out.println("Watch out for cooler, rainy me.observer.weather");
 		}
 	}
 }

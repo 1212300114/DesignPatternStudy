@@ -1,4 +1,4 @@
-package me.weather;
+package me.observer.weather;
 
 public class ConditionsDisplay implements IObserver, IDisplayElement {
 
@@ -12,10 +12,12 @@ public class ConditionsDisplay implements IObserver, IDisplayElement {
 		this.weatherData.registerObserver(this);
 	}
 
+	@Override
 	public void display() {
 		System.out.println("Current conditions:" + this.temp + "F degress and" + this.humi + "% humidity");
 	}
 
+	@Override
 	public void update(float temp, float humidity, float pressure) {
 		this.temp = temp;
 		this.humi = humidity;

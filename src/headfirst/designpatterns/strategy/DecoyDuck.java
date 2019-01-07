@@ -6,6 +6,6 @@ public class DecoyDuck extends Duck {
 		setQuackBehavior(new MuteQuack());
 	}
 	public void display() {
-		System.out.println("I'm a me.weather.duck Decoy");
+		System.out.println("I'm a me.observer.weather.duck Decoy");
 	}
 }

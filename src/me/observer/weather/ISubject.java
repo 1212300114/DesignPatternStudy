@@ -1,4 +1,4 @@
-package me.weather;
+package me.observer.weather;
 
 public interface ISubject {
 	void registerObserver(IObserver o);

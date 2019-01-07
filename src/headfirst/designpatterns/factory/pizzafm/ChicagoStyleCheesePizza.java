@@ -3,7 +3,7 @@ package headfirst.designpatterns.factory.pizzafm;
 public class ChicagoStyleCheesePizza extends Pizza {
 
 	public ChicagoStyleCheesePizza() { 
-		name = "Chicago Style Deep Dish Cheese Pizza";
+		name = "Chicago Style Deep Dish Cheese APizza";
 		dough = "Extra Thick Crust Dough";
 		sauce = "Plum Tomato Sauce";
  

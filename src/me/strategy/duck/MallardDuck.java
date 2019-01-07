@@ -1,4 +1,4 @@
-package me.duck;
+package me.strategy.duck;
 
 public class MallardDuck extends ADuck {
 
@@ -8,7 +8,7 @@ public class MallardDuck extends ADuck {
 	}
 	
 	public void display() {
-		System.out.println("I'm a mallard me.weather.duck");
+		System.out.println("I'm a mallard me.observer.weather.duck");
 	}
 	
 }
